@@ -1,0 +1,1356 @@
+                     {
+  "chart": {
+    "zIndex": 0,
+    "enabled": true,
+    "type": "polar",
+    "title": {
+      "zIndex": 80,
+      "enabled": true,
+      "maxLength": null,
+      "fontSize": 14,
+      "fontFamily": "\"Lucida Console\", Monaco, monospace",
+      "fontColor": "#b0bec5",
+      "fontOpacity": 1,
+      "fontDecoration": "none",
+      "fontStyle": "normal",
+      "fontVariant": "normal",
+      "fontWeight": "normal",
+      "letterSpacing": "normal",
+      "textDirection": "ltr",
+      "textShadow": "none",
+      "lineHeight": "normal",
+      "textIndent": 0,
+      "vAlign": "top",
+      "hAlign": "center",
+      "wordWrap": "normal",
+      "wordBreak": "normal",
+      "textOverflow": "",
+      "selectable": false,
+      "disablePointerEvents": false,
+      "useHtml": false,
+      "width": null,
+      "height": null,
+      "align": "center",
+      "text": "Company Profit Dynamic in Regions by Year",
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "bottom": 25,
+        "right": 0
+      },
+      "background": {
+        "zIndex": 0,
+        "enabled": false
+      }
+    },
+    "background": {
+      "zIndex": 0.5,
+      "enabled": true
+    },
+    "tooltip": {
+      "enabled": true,
+      "title": {
+        "zIndex": 1,
+        "enabled": true,
+        "maxLength": null,
+        "fontSize": 14,
+        "fontFamily": "\"Lucida Console\", Monaco, monospace",
+        "fontColor": "#90a4ae",
+        "fontOpacity": 1,
+        "fontDecoration": "none",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "fontWeight": "normal",
+        "letterSpacing": "normal",
+        "textDirection": "ltr",
+        "textShadow": "none",
+        "lineHeight": "normal",
+        "textIndent": 0,
+        "vAlign": "top",
+        "hAlign": "left",
+        "wordWrap": "normal",
+        "wordBreak": "normal",
+        "textOverflow": "",
+        "selectable": false,
+        "disablePointerEvents": false,
+        "useHtml": false,
+        "width": null,
+        "height": null,
+        "align": "center",
+        "orientation": "top",
+        "rotation": 0,
+        "text": "",
+        "margin": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0,
+          "right": 0
+        },
+        "padding": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0,
+          "right": 0
+        },
+        "background": {
+          "enabled": false
+        }
+      },
+      "separator": {
+        "zIndex": 1,
+        "enabled": true,
+        "fill": "#546e7a",
+        "stroke": "none",
+        "width": "100%",
+        "height": 1,
+        "orientation": "top",
+        "margin": {
+          "left": 10,
+          "top": 10,
+          "bottom": 10,
+          "right": 10
+        }
+      },
+      "background": {
+        "zIndex": 0,
+        "enabled": true
+      }
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "bottom": 0,
+      "right": 0
+    },
+    "padding": {
+      "left": 15,
+      "top": 20,
+      "bottom": 15,
+      "right": 25
+    },
+    "a11y": {
+      "enabled": true,
+      "mode": "chart-elements"
+    },
+    "autoRedraw": true,
+    "bounds": {},
+    "contextMenu": {
+      "enabled": true
+    },
+    "credits": {
+      "text": "AnyChart",
+      "url": "https://www.anychart.com/?utm_source=registered",
+      "alt": "AnyChart - JavaScript Charts designed to be embedded and integrated{{anychart-version}}",
+      "imgAlt": "AnyChart - JavaScript Charts",
+      "logoSrc": "https://static.anychart.com/logo.png",
+      "enabled": false
+    },
+    "selectRectangleMarqueeFill": {
+      "color": "#d3d3d3",
+      "opacity": 0.4
+    },
+    "selectRectangleMarqueeStroke": "#d3d3d3",
+    "interactivity": {
+      "spotRadius": 2,
+      "multiSelectOnClick": false,
+      "unselectOnClickOutOfPoint": true,
+      "hoverMode": "single",
+      "selectionMode": "multi-select"
+    },
+    "defaultSeriesType": "polygon",
+    "maxBubbleSize": "20%",
+    "minBubbleSize": "5%",
+    "maxPointWidth": "100%",
+    "minPointLength": 0,
+    "baseline": 0,
+    "palette": {
+      "type": "distinct",
+      "items": [
+        "#40c4ff",
+        "#0288d1",
+        "#9fa8da",
+        "#5c6bc0",
+        "#7e57c2",
+        "#54dbdf",
+        "#15a9c7",
+        "#00897b",
+        "#304ffe",
+        "#0179be"
+      ]
+    },
+    "markerPalette": {
+      "items": [
+        "circle",
+        "diamond",
+        "square",
+        "triangle-down",
+        "triangle-up",
+        "diagonal-cross",
+        "pentagon",
+        "cross",
+        "v-line",
+        "star5",
+        "star4",
+        "trapezium",
+        "star7",
+        "star6",
+        "star10"
+      ]
+    },
+    "hatchFillPalette": {
+      "items": [
+        {
+          "type": "backward-diagonal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "forward-diagonal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "horizontal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "vertical",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "dashed-backward-diagonal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "grid",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "dashed-forward-diagonal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "dashed-horizontal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "dashed-vertical",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "diagonal-cross",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "diagonal-brick",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "divot",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "horizontal-brick",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "vertical-brick",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "checker-board",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "confetti",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "plaid",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "solid-diamond",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "zig-zag",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "weave",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-05",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-10",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-20",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-25",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-30",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-40",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-50",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-60",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-70",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-75",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-80",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-90",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        }
+      ]
+    },
+    "normal": {
+      "labels": {
+        "enabled": false
+      },
+      "minLabels": {
+        "enabled": null
+      },
+      "maxLabels": {
+        "enabled": null
+      }
+    },
+    "hovered": {
+      "labels": {
+        "enabled": null
+      },
+      "minLabels": {
+        "enabled": null
+      },
+      "maxLabels": {
+        "enabled": null
+      }
+    },
+    "selected": {
+      "labels": {
+        "enabled": null
+      },
+      "minLabels": {
+        "enabled": null
+      },
+      "maxLabels": {
+        "enabled": null
+      }
+    },
+    "barGroupsPadding": 0,
+    "barsPadding": 0,
+    "xScale": 0,
+    "yScale": 1,
+    "series": [
+      {
+        "enabled": true,
+        "seriesType": "polygon",
+        "clip": false,
+        "legendItem": {
+          "enabled": true,
+          "iconStroke": "none"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": true,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#878f96",
+            "thickness": 3
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": true,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "enabled": false,
+          "titleFormat": "Series named {%SeriesName} with {%SeriesPointsCount} points. Min value is {%SeriesYMin}, max value is {%SeriesYMax}"
+        },
+        "data": [
+          {
+            "x": "Nail polish",
+            "value": 12814
+          },
+          {
+            "x": "Eyebrow pencil",
+            "value": 13012
+          },
+          {
+            "x": "Rouge",
+            "value": 11624
+          },
+          {
+            "x": "Lipstick",
+            "value": 8814
+          },
+          {
+            "x": "Eyeshadows",
+            "value": 12998
+          },
+          {
+            "x": "Eyeliner",
+            "value": 12321
+          },
+          {
+            "x": "Foundation",
+            "value": 10342
+          },
+          {
+            "x": "Lip gloss",
+            "value": 22998
+          },
+          {
+            "x": "Mascara",
+            "value": 11261
+          },
+          {
+            "x": "Powder",
+            "value": 10261
+          }
+        ],
+        "closed": true,
+        "xScale": 0,
+        "yScale": 1
+      },
+      {
+        "enabled": true,
+        "seriesType": "polygon",
+        "clip": false,
+        "legendItem": {
+          "enabled": true,
+          "iconStroke": "none"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": true,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#878f96",
+            "thickness": 3
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": true,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "enabled": false,
+          "titleFormat": "Series named {%SeriesName} with {%SeriesPointsCount} points. Min value is {%SeriesYMin}, max value is {%SeriesYMax}"
+        },
+        "data": [
+          {
+            "x": "Nail polish",
+            "value": 3054
+          },
+          {
+            "x": "Eyebrow pencil",
+            "value": 5067
+          },
+          {
+            "x": "Rouge",
+            "value": 7004
+          },
+          {
+            "x": "Lipstick",
+            "value": 9054
+          },
+          {
+            "x": "Eyeshadows",
+            "value": 12043
+          },
+          {
+            "x": "Eyeliner",
+            "value": 15067
+          },
+          {
+            "x": "Foundation",
+            "value": 10119
+          },
+          {
+            "x": "Lip gloss",
+            "value": 12043
+          },
+          {
+            "x": "Mascara",
+            "value": 10419
+          },
+          {
+            "x": "Powder",
+            "value": 14419
+          }
+        ],
+        "closed": true,
+        "xScale": 0,
+        "yScale": 1
+      },
+      {
+        "enabled": true,
+        "seriesType": "polygon",
+        "clip": false,
+        "legendItem": {
+          "enabled": true,
+          "iconStroke": "none"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": true,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#878f96",
+            "thickness": 3
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": true,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "enabled": false,
+          "titleFormat": "Series named {%SeriesName} with {%SeriesPointsCount} points. Min value is {%SeriesYMin}, max value is {%SeriesYMax}"
+        },
+        "data": [
+          {
+            "x": "Nail polish",
+            "value": 4376
+          },
+          {
+            "x": "Eyebrow pencil",
+            "value": 3987
+          },
+          {
+            "x": "Rouge",
+            "value": 3574
+          },
+          {
+            "x": "Lipstick",
+            "value": 4376
+          },
+          {
+            "x": "Eyeshadows",
+            "value": 4572
+          },
+          {
+            "x": "Eyeliner",
+            "value": 3417
+          },
+          {
+            "x": "Foundation",
+            "value": 5231
+          },
+          {
+            "x": "Lip gloss",
+            "value": 4572
+          },
+          {
+            "x": "Mascara",
+            "value": 6134
+          },
+          {
+            "x": "Powder",
+            "value": 5134
+          }
+        ],
+        "closed": true,
+        "xScale": 0,
+        "yScale": 1
+      },
+      {
+        "enabled": true,
+        "seriesType": "polygon",
+        "clip": false,
+        "legendItem": {
+          "enabled": true,
+          "iconStroke": "none"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": true,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#878f96",
+            "thickness": 3
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": true,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "enabled": false,
+          "titleFormat": "Series named {%SeriesName} with {%SeriesPointsCount} points. Min value is {%SeriesYMin}, max value is {%SeriesYMax}"
+        },
+        "data": [
+          {
+            "x": "Nail polish",
+            "value": 4229
+          },
+          {
+            "x": "Eyebrow pencil",
+            "value": 3932
+          },
+          {
+            "x": "Rouge",
+            "value": 5221
+          },
+          {
+            "x": "Lipstick",
+            "value": 9256
+          },
+          {
+            "x": "Eyeshadows",
+            "value": 3308
+          },
+          {
+            "x": "Eyeliner",
+            "value": 5432
+          },
+          {
+            "x": "Foundation",
+            "value": 13701
+          },
+          {
+            "x": "Lip gloss",
+            "value": 4008
+          },
+          {
+            "x": "Mascara",
+            "value": 18712
+          },
+          {
+            "x": "Powder",
+            "value": 25712
+          }
+        ],
+        "closed": true,
+        "xScale": 0,
+        "yScale": 1
+      }
+    ],
+    "startAngle": 0,
+    "innerRadius": 0,
+    "xAxis": {
+      "zIndex": 25,
+      "enabled": true,
+      "overlapMode": "no-overlap",
+      "fill": "none",
+      "stroke": "#546e7a",
+      "startAngle": 0,
+      "labels": {
+        "zIndex": 25,
+        "enabled": true
+      },
+      "minorLabels": {
+        "zIndex": 25,
+        "enabled": false
+      },
+      "ticks": {
+        "zIndex": 25,
+        "enabled": true,
+        "stroke": "#546e7a",
+        "length": 6,
+        "position": "outside"
+      },
+      "minorTicks": {
+        "zIndex": 25,
+        "enabled": false,
+        "stroke": "#455a64",
+        "length": 4,
+        "position": "outside"
+      },
+      "scale": 0
+    },
+    "yAxis": {
+      "zIndex": 35,
+      "enabled": false,
+      "startAngle": 0,
+      "overlapMode": "no-overlap",
+      "stroke": "#546e7a",
+      "drawFirstLabel": true,
+      "drawLastLabel": true,
+      "innerRadius": 0,
+      "labels": {
+        "zIndex": 35,
+        "enabled": true
+      },
+      "minorLabels": {
+        "zIndex": 35,
+        "enabled": false
+      },
+      "ticks": {
+        "zIndex": 35,
+        "enabled": true,
+        "stroke": "#546e7a",
+        "length": 6,
+        "position": "outside"
+      },
+      "minorTicks": {
+        "zIndex": 35,
+        "enabled": false,
+        "stroke": "#455a64",
+        "length": 4,
+        "position": "outside"
+      },
+      "scale": 1
+    },
+    "xGrids": [
+      {
+        "palette": {
+          "type": "distinct",
+          "items": [
+            "none"
+          ]
+        },
+        "zIndex": 11,
+        "enabled": true,
+        "stroke": "#546e7a",
+        "drawFirstLine": true,
+        "drawLastLine": true,
+        "isMinor": false,
+        "scale": 1
+      }
+    ],
+    "yGrids": [
+      {
+        "palette": {
+          "type": "distinct",
+          "items": [
+            "none"
+          ]
+        },
+        "zIndex": 11.001,
+        "enabled": true,
+        "stroke": "#546e7a",
+        "drawFirstLine": true,
+        "drawLastLine": true,
+        "isMinor": false,
+        "scale": 1
+      }
+    ],
+    "sortPointsByX": true,
+    "scales": [
+      {
+        "type": "ordinal",
+        "inverted": false,
+        "ticks": {
+          "maxCount": 100
+        },
+        "mode": "discrete"
+      },
+      {
+        "type": "linear",
+        "inverted": false,
+        "maximum": null,
+        "minimum": null,
+        "minimumGap": 0.1,
+        "maximumGap": 0.1,
+        "softMinimum": null,
+        "softMaximum": null,
+        "alignMinimum": true,
+        "alignMaximum": true,
+        "maxTicksCount": 1000,
+        "ticks": {
+          "mode": "linear",
+          "base": 0,
+          "allowFractional": true,
+          "minCount": 4,
+          "maxCount": 6
+        },
+        "minorTicks": {
+          "mode": "linear",
+          "base": 0,
+          "allowFractional": true,
+          "count": 5
+        },
+        "stackMode": "value",
+        "stackDirection": "direct",
+        "stickToZero": true,
+        "comparisonMode": "none"
+      }
+    ]
+  }
+}
+                
